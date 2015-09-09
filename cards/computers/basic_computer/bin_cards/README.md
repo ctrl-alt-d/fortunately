@@ -1,0 +1,1 @@
+bin generated cards cache to download by muggles
