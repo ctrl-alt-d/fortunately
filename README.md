@@ -1,4 +1,4 @@
-Unfortunately is a card game for amusing teaching
+Unfortunately is a open card game for amusing teaching several knowledge areas.
 
 The crazy game
 ==============
