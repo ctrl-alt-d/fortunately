@@ -1,2 +1,2 @@
-# fortunatly
-fortunatly game for amussing teaching
+# fortunately
+fortunately game for amusing teaching
