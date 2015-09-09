@@ -1,0 +1,1 @@
+here is the right place to push a blank card that is the base for the generated cards.
