@@ -25,4 +25,26 @@ How to
 * install requirements:  `pip install -r requirements.txt`
 * run script:  `python generate.py`
 
+TODO
+====
+
+Project is in conceptual stage. Any help is welcome.
+
+* Content:
+    * Fill csv files.
+    * Design new instructions.
+    * Translate instructions to other languages.
+* Development:
+    * Process to download an insert images into cards.
+    * Improve code
+* Design:
+    * Improve card design and prettify.
+* Promote:
+    * Test with your knowledge area and send feedback. 
+    
+    
+        
+    
+    
+        
 
