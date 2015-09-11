@@ -1,0 +1,2 @@
+appy>=0.9.2
+unicodecsv>=0.13.0

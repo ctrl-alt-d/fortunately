@@ -13,6 +13,14 @@ Project content
 
 * script to generate game cards.
 * csv with card title, card info, and card url picture and card fake flag.
-* Each knowledge areas has ther own folder and csv. 
+* Each knowledge areas has ther own folder and csv.
+
+How to
+======
+
+* clone project:     git clone git@github.com:ctrl-alt-d/unfortunately.git
+* create virtual environment: cd unfortunately; virtualenv env
+* install requirements:  pip install -r requirements.txt
+* run script:  python generate.py
 
 
