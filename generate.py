@@ -16,18 +16,21 @@ logging.info('**start**')
 PROJECT_DIR = os.path.dirname(__file__)
 location = lambda x: os.path.join(PROJECT_DIR, x)
 
-CARDS_TO_GENERATE = [ location(x) for x in
+#TODO: guess from filesystem
+KNOWLEDGE_AREA = [ location(x) for x in
                      ( r'cards/computers/basic_computer', 
                        r'cards/computers/database', 
                        r'cards/law/international',
                      ) 
                     ]
 
+#improve: work with several templates.
 MASTERCARD_TEMPLATE =  location( r'cards/mastercards/row_x_3_modelA.odt' )
+
 TMP_DIR = location( r'tmp' )
 
 logging.info('main loop')
-for card_to_generate in CARDS_TO_GENERATE:
+for card_to_generate in KNOWLEDGE_AREA:
 
     csv_path = os.path.join(card_to_generate, 'cards.csv' )
 
@@ -43,15 +46,19 @@ for card_to_generate in CARDS_TO_GENERATE:
     cards = list(  reader )
     
     #downloading images
-    for card in cards:
+    if not os.path.exists( TMP_DIR ):
+        os.makedirs( TMP_DIR )
+    for card in cards:        
+        #internet url
         url = card['picture']
         local_file = location( os.path.join( 'tmp/', url.rsplit('/',1)[1] ) ).lower()
         urllib.urlretrieve(url, local_file)
+        #resizing
         im = Image.open(local_file)        
         size = 240, 145
         im.thumbnail(size, Image.ANTIALIAS)
         im.save(local_file)
-                    
+        #setting local path            
         card['picture'] = local_file
     
     report_data = {

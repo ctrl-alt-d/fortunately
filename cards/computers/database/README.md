@@ -1,1 +1,3 @@
 Database cards: SGBD, design, SQL, NoSQL, ...
+
+Contritute creating new entries on csv file. Warning: no spaces after ','
