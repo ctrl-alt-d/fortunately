@@ -3,7 +3,9 @@
 The crazy game
 ==============
 
-Each player takes 3 cards and play it by turns:
+Each player takes 3 cards and play it by turns.
+
+[Imgur](http://i.imgur.com/qBWKJgB.png)
 
 - P1: My broder in law asked to me about clean viruses from their laptop, I grabbed my antivirus pack and I went to help him.
 - P2: Unfortunately, my brother in laws runs **Windows Vista** and I was unable to install any of my antivirus in his box.  
