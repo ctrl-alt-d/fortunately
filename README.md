@@ -54,8 +54,7 @@ Project is in conceptual stage. Any help is welcome.
 * Game:     
     * Design new instructions.
     
-    
-        
+
     
     
         
