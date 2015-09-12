@@ -1,4 +1,4 @@
->*"Unfortunately is an open card game. Amusing teaching several knowledge areas. Based on [Fortunately, Unfortunately game](https://en.wikipedia.org/wiki/Fortunately,_Unfortunately)."
+>*"Unfortunately is an open card game. Amusing teaching several knowledge areas. Based on [Fortunately, Unfortunately game](https://en.wikipedia.org/wiki/Fortunately,_Unfortunately)."*
 
 The crazy game
 ==============
