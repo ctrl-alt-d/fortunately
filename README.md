@@ -24,10 +24,10 @@ How to
 
 >You can download odt files with github zip file, or clone repository and contribute:
 
-* clone project:  `git clone git@github.com:ctrl-alt-d/unfortunately.git`
+* clone project: `git clone git@github.com:ctrl-alt-d/unfortunately.git`
 * create virtual environment: `cd unfortunately; virtualenv env`
-* install requirements:  `pip install -r requirements.txt`
-* run script:  `python generate.py`
+* install requirements: `pip install -r requirements.txt`
+* run script: `python generate.py`
 
 TODO
 ====
