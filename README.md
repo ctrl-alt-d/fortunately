@@ -8,7 +8,7 @@ Each player takes 3 cards and play it by turns.
 ![Generated cards](http://i.imgur.com/qBWKJgB.png)
 
 - P1: My broder in law asked to me about clean viruses from their laptop, I grabbed my antivirus pack and I went to help him.
-- P2: Unfortunately, my brother in laws runs **Windows Vista** and I was unable to install any of my antivirus in his box.  
+- P2: Unfortunately, my brother in law runs **Windows Vista** and I was unable to install any of my antivirus in his box.  
 - P3: Fortunately, I'm used to keep with me antivirus / operating system **Pivot Table** and I looked for best solutions.  
 - P1: Unfortunately, after download and install antivirus a **Duplicate IP address** issue caused **Windows Blue Screen**.  
 
