@@ -19,24 +19,31 @@ Project content
 * csv with card title, card info, and card url picture and card fake flag.
 * Each knowledge areas has ther own folder and csv.
 
-How to
-======
+How to get the cards
+========================
 
->You can download odt files with github zip file, or clone repository and contribute:
+>You can download odt files from github [unfortunately zip file](https://github.com/ctrl-alt-d/unfortunately/zipball/master)
+
+or you can freely clone repository and contribute:
 
 * clone project: `git clone git@github.com:ctrl-alt-d/unfortunately.git`
 * create virtual environment: `cd unfortunately; virtualenv env`
 * install requirements: `pip install -r requirements.txt`
 * run script: `python generate.py`
 
-TODO
-====
 
-Project is in conceptual stage. Any help is welcome.
+How to contribute
+===================
 
-* Content:
-    * Fill csv files.
-	* Improve instructions.
+Project is in conceptual stage. Any help is welcome. You can contribute:
+
+* Playing:
+    * Play with unfortunately and share your experience. 
+    * ( need help? contact to me ctrl.alt.d at gmail )
+
+* Improving content:
+    * Help filling csv files ( is the content to generate cards ).
+    * Improve instructions.
     * Translate instructions to other languages.
     
 * Development:
@@ -44,15 +51,16 @@ Project is in conceptual stage. Any help is welcome.
     * Tests.
     * New functionalities: several .csv for knowlege area, ...
     
-* Design:
+* Improving design:
     * Promotion image.
     * Improve card design and prettify.
     
-* Promote:
+* Promotig:
     * Test with your knowledge area and send feedback.
     
 * Game:     
     * Design new instructions.
+
     
 
     
