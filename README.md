@@ -2,7 +2,7 @@
 
 Website
 ==============
-[Unfortunately website](http://ctrl-alt-d.github.io/unfortunately/)
+Visit [unfortunately website](http://ctrl-alt-d.github.io/unfortunately/)
 
 The crazy game
 ==============
