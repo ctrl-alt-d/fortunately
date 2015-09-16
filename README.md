@@ -28,9 +28,9 @@ How to get the cards
 
 or you can freely clone repository and contribute:
 
-* clone project: `git clone git@github.com:ctrl-alt-d/unfortunately.git`
+* clone project: `git clone https://github.com/ctrl-alt-d/unfortunately.gitt`
 * create virtual environment: `cd unfortunately; virtualenv env; source env/bin/activate`
-* be sure you have needed jpeg libraries: `sudo apt-get install libjpeg-dev`
+* be sure you have needed jpeg libraries: `sudo apt-get install python-dev libjpeg-dev`
 * install requirements: `pip install -r requirements.txt`
 * run script: `python generate.py`
 
