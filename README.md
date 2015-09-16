@@ -30,7 +30,7 @@ or you can freely clone repository and contribute:
 
 * clone project: `git clone https://github.com/ctrl-alt-d/unfortunately.gitt`
 * create virtual environment: `cd unfortunately; virtualenv env; source env/bin/activate`
-* be sure you have needed jpeg libraries: `sudo apt-get install python-dev libjpeg-dev`
+* be sure you have needed jpeg libraries: `sudo apt-get install python-dev libjpeg-dev zlib1g-dev`
 * install requirements: `pip install -r requirements.txt`
 * run script: `python generate.py`
 
