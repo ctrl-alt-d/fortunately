@@ -1,8 +1,6 @@
 >*"Unfortunately is an open card game. Amusing teaching several knowledge areas. Based on [Fortunately, Unfortunately game](https://en.wikipedia.org/wiki/Fortunately,_Unfortunately)."*
 
-Website
-==============
-Visit [unfortunately website](http://ctrl-alt-d.github.io/unfortunately/)
+*Visit [unfortunately website](http://ctrl-alt-d.github.io/unfortunately/)*
 
 The crazy game
 ==============
