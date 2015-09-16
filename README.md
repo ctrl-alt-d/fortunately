@@ -27,7 +27,7 @@ How to get the cards
 or you can freely clone repository and contribute:
 
 * clone project: `git clone git@github.com:ctrl-alt-d/unfortunately.git`
-* create virtual environment: `cd unfortunately; virtualenv env`
+* create virtual environment: `cd unfortunately; virtualenv env; source env/bin/activate`
 * install requirements: `pip install -r requirements.txt`
 * run script: `python generate.py`
 
