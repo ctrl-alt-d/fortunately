@@ -20,6 +20,8 @@ location = lambda x: os.path.join(PROJECT_DIR, x)
 KNOWLEDGE_AREA = [ location(x) for x in
                      ( r'cards/computers/basic_computer', 
                        r'cards/computers/database', 
+                       r'cards/computers/developing', 
+                       r'cards/computers/operating_system', 
                        r'cards/law/international',
                      ) 
                     ]
