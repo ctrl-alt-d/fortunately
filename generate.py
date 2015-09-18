@@ -53,6 +53,7 @@ for card_to_generate in KNOWLEDGE_AREA:
     for card in cards:        
         #internet url
         url = card['picture']
+        logging.info('url: ' + url)
         local_file = location( os.path.join( 'tmp/', url.rsplit('/',1)[1] ) ).lower()
         urllib.urlretrieve(url, local_file)
         #resizing
