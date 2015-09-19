@@ -31,6 +31,19 @@ MASTERCARD_TEMPLATE =  location( r'cards/mastercards/row_x_3_modelA.odt' )
 
 TMP_DIR = location( r'tmp' )
 
+SIZE = 240, 145
+
+ERROR_IMAGE = r'http://4.bp.blogspot.com/-yUsv10OBHSA/U3uJFpzuMzI/AAAAAAAADjU/9_RAscdDA_4/s1600/error+404+54411+error-404.jpg'
+if True:    #imatge a posar si no es pot utilitzar la del fitxer
+    url = ERROR_IMAGE
+    logging.info('url: ' + url)
+    local_file = location( os.path.join( 'tmp/', url.rsplit('/',1)[1] ) ).lower()
+    urllib.urlretrieve(url, local_file)
+    im = Image.open(local_file)
+    im.thumbnail(SIZE, Image.ANTIALIAS)
+    im.save(local_file)
+    ERROR_IMAGE_LOCAL_FILE = local_file 
+
 logging.info('main loop')
 for card_to_generate in KNOWLEDGE_AREA:
 
@@ -57,10 +70,14 @@ for card_to_generate in KNOWLEDGE_AREA:
         local_file = location( os.path.join( 'tmp/', url.rsplit('/',1)[1] ) ).lower()
         urllib.urlretrieve(url, local_file)
         #resizing
-        im = Image.open(local_file)        
-        size = 240, 145
-        im.thumbnail(size, Image.ANTIALIAS)
-        im.save(local_file)
+        try:
+            im = Image.open(local_file)
+            im.thumbnail(SIZE, Image.ANTIALIAS)
+            im.save(local_file)
+        except:
+            loca_file = ERROR_IMAGE_LOCAL_FILE                    
+            logging.warning( 'bad image: ' + url )
+        
         #setting local path            
         card['picture'] = local_file
     
